@@ -76,6 +76,20 @@ def salud():
     return "ok", 200
 
 
+@app.get("/privacidad")
+def privacidad():
+    return (
+        "<html><head><meta charset='utf-8'><title>Política de privacidad</title></head><body>"
+        "<h1>Política de privacidad - Machupichu Bot</h1>"
+        "<p>Este bot responde automáticamente a comentarios públicos de la Página de Facebook "
+        "Machupichu cuando contienen palabras clave sobre trámites consulares.</p>"
+        "<p>No almacenamos datos personales ni los comentarios: se procesan en el momento "
+        "y no se guardan ni se comparten con terceros.</p>"
+        "<p>Para consultas o eliminación de datos escribe a la Página de Facebook Machupichu.</p>"
+        "</body></html>"
+)
+
+
 @app.get("/webhook")
 def verificar():
     if (

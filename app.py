@@ -30,12 +30,7 @@ PALABRAS_CLAVE = [
     "carta poder",
 ]
 
-RESPUESTA_GENERICA = (
-    "¡Hola! Para citas y trámites en el Consulado General del Perú en Madrid "
-    "(pasaportes, DNI, salvoconductos, carta poder, etc.) debes reservar tu cita "
-    "a través del sistema oficial de citas del Ministerio de Relaciones Exteriores: "
-    "https://citas.rree.gob.pe/. Ahí eliges el consulado, el trámite y la fecha disponible."
-)
+RESPUESTA_GENERICA = "Escribeme al privado"
 
 
 def normalizar(texto):
